@@ -105,7 +105,9 @@ function loginEvents.onLogin(player)
 		-- The Rookie Guard
 		"VascalirRatKills",
 		-- An Uneasy Alliance
-		"RenegadeOrcKill"
+		"RenegadeOrcKill",
+		-- Hunting treasure
+		"SpawnTreasureChest"
 	}
 
 	for i = 1, #events do
