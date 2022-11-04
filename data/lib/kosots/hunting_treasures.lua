@@ -1,4 +1,4 @@
-local HUNTING_TREASURES ={
+HUNTING_TREASURES ={
 	name = 'Hunting Treasures',
 	chance = 0.01, -- Chance to spawn
 	delay = 25, -- Delay in minutes
