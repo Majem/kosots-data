@@ -15,3 +15,6 @@ dofile('data/lib/others/others.lua')
 
 -- Quests library
 dofile('data/lib/quests/quest.lua')
+
+-- Hunting Treasures
+dofile('data/lib/kosots/hunting_treasures.lua')
