@@ -8,7 +8,15 @@ HUNTING_TREASURES ={
 -- Spawn treasure cheast near the player
 function Player.spawnTreasureChest(self)
 	Spdlog.warn(HUNTING_TREASURES.name .. " - Player spawned treasure hunt")
+	if player:getVipDays() > 0 then
+		Spdlog.warn(HUNTING_TREASURES.name .. " - is VIP")
+	end
 	return true
+end
+
+-- Check if player can spawn Treasure Chest
+function Player.canSpawnTreasureChest(self)
+
 end
 
 -- Random a chest based on a player's level
